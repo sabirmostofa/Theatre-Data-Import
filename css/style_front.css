@@ -1,0 +1,79 @@
+.theatre-booking-info{
+    list-style-type:  none;
+    margin-left: 0;
+}
+#theatre-booking-info li{
+    font-weight: bold;
+}
+.show-poster-image{
+    float:left;
+    margin: 0 15px 5px 0;
+}
+.theatre-info-container{
+    overflow: auto;
+    margin: 40px auto;
+    border: 1px solid #EFF0F1;
+}
+.image-theatre{    
+    margin-right: 5px;
+    float:left;
+
+}
+.desc-theatre{
+    padding : 5px; 
+   
+    float:left;
+    vertical-align: middle;
+    width: 40%;
+}
+.price-was{
+    padding : 5px;  
+    float:left;
+    vertical-align: middle;
+    min-height: 100px;
+    color:#B70008;
+}
+.price-now{
+    padding : 5px; 
+    float:left;
+    vertical-align: middle;
+    min-height: 100px;
+    color:#B70008;
+}
+.book-now{
+    padding : 5px;  
+    float:left;
+    text-align: center;
+    vertical-align: middle;
+    min-height: 100px;
+    color:#B70008;
+}
+.book-link{
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid black;
+    display:block;
+    background-color: #B70008;
+    color:white;
+    
+}
+
+.containter-all-theatres{
+    overflow:auto;
+    
+}
+
+.box_rotate {
+     -moz-transform: rotate(7.5deg);  /* FF3.5+ */
+       -o-transform: rotate(7.5deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(7.5deg);  /* Saf3.1+, Chrome */
+             filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
+         -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+}
+
+#theatre-all-casts{
+    border-spacing: 10px;
+    font-size: 12px;
+    
+}
+
